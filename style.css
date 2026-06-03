@@ -20,68 +20,35 @@ nav a {
   font-size: 16px;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
+nav a:hover { text-decoration: underline; }
 
-.hero {
+.project-header {
   text-align: center;
-  padding: 50px 20px 20px;
+  padding: 40px 20px 20px;
 }
 
-.hero h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
+.project-header h1 { font-size: 36px; margin-bottom: 8px; }
+.project-header p { font-size: 16px; color: #555; }
+
+.embed-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
-.hero p {
-  font-size: 17px;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.hero-gif {
-  width: 220px;
-  border-radius: 16px;
-  margin-top: 10px;
-}
-
-.projects {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  padding: 30px 20px;
-  flex-wrap: wrap;
-}
-
-.card {
+.about {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 25px 30px;
   background: white;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 25px;
-  width: 280px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
-.card h2 {
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-.card p {
-  color: #555;
-  font-size: 15px;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
-.card a {
-  color: #6c63ff;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.card a:hover { text-decoration: underline; }
+.about h2 { margin-bottom: 10px; font-size: 20px; }
+.about p { color: #555; line-height: 1.7; font-size: 15px; }
 
 footer {
   text-align: center;
@@ -89,5 +56,5 @@ footer {
   color: #aaa;
   font-size: 14px;
   border-top: 1px solid #eee;
-  margin-top: 20px;
+  margin-top: 30px;
 }
